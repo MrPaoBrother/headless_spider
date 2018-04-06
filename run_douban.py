@@ -21,8 +21,9 @@ def run(url, save_path):
     code = input("code:")
     # 填写表单
     msg = {
-        "email": "18702604589",
-        "password": "13672240290cccC",
+        # 自行填充
+        "email": "****",
+        "password": "*****",
         "captcha_field": code
     }
     chrome_spider.fill_form_by_id(tab, auto_sub=False, **msg)
